@@ -1,0 +1,1 @@
+fn(usize) -> (tokio::sync::broadcast::Sender<_>, tokio::sync::broadcast::Receiver<_>) {tokio::sync::broadcast::channel::<_>}
